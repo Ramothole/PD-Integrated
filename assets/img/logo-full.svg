@@ -1,0 +1,90 @@
+<svg width="1380" height="600" viewBox="110 120 1380 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3FB6E8"/>
+      <stop offset="55%" stop-color="#1B82B8"/>
+      <stop offset="100%" stop-color="#0E5A85"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8DC640"/>
+      <stop offset="55%" stop-color="#5BA22F"/>
+      <stop offset="100%" stop-color="#3F7A1F"/>
+    </linearGradient>
+    <linearGradient id="greyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A9ADB2"/>
+      <stop offset="55%" stop-color="#6E7378"/>
+      <stop offset="100%" stop-color="#3C4045"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  
+
+  <!-- ICON: three interlocking swoosh blades around a center, separated by white gaps -->
+  <g id="icon" transform="translate(800,320)">
+
+    <!-- BLUE blade (top) -->
+    <path d="M0,-185
+             C100,-185 165,-130 165,-55
+             C165,5 120,40 55,40
+             C20,40 -5,20 -5,-5
+             C-5,-25 10,-40 30,-40
+             C45,-40 55,-30 55,-18
+             C55,-8 48,-2 40,-2
+             C48,10 65,15 85,10
+             C115,2 130,-25 120,-55
+             C108,-90 65,-115 10,-115
+             C-50,-115 -100,-80 -120,-30
+             C-95,-130 -55,-185 0,-185 Z"
+          fill="url(#blueGrad)"/>
+
+    <!-- GREY blade (right) -->
+    <path d="M160,-50
+             C230,0 230,90 165,150
+             C115,196 45,196 0,165
+             C-20,150 -25,125 -10,108
+             C2,95 22,93 35,103
+             C30,112 33,123 43,128
+             C65,140 95,135 113,113
+             C133,88 128,52 100,30
+             C70,5 25,5 -8,28
+             C45,-35 110,-70 160,-50 Z"
+          fill="url(#greyGrad)"/>
+
+    <!-- GREEN blade (bottom-left) -->
+    <path d="M-165,-30
+             C-230,30 -225,125 -150,180
+             C-95,220 -20,212 15,170
+             C32,150 30,122 10,107
+             C-5,96 -25,98 -35,112
+             C-27,120 -28,133 -40,140
+             C-65,155 -98,142 -112,113
+             C-128,80 -115,40 -80,18
+             C-40,-8 15,-5 50,25
+             C0,-55 -90,-85 -165,-30 Z"
+          fill="url(#greenGrad)"/>
+
+    <!-- thin white separators for the ribbon / layered look -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.9">
+      <path d="M-15,-160 C70,-150 120,-100 110,-50"/>
+      <path d="M140,-15 C195,55 175,140 110,165"/>
+      <path d="M-140,-5 C-195,55 -180,150 -110,175"/>
+    </g>
+  </g>
+
+  <!-- WORDMARK -->
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="800" y="640" font-size="74" letter-spacing="2">
+      <tspan fill="#0E5A85">PD </tspan>
+      <tspan fill="#1B3A5C">INTEGRATED </tspan>
+      <tspan fill="#5BA22F">SHEQ </tspan>
+      <tspan fill="#3C4045">SOLUTIONS</tspan>
+    </text>
+  </g>
+
+  <!-- TAGLINE -->
+  <text x="800" y="690" font-family="Arial, Helvetica, sans-serif" font-style="italic"
+        font-size="30" fill="#4A4F54" text-anchor="middle">
+    &#8220;Protecting People, Assets &amp; Environment&#8221;
+  </text>
+</svg>
